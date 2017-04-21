@@ -300,7 +300,7 @@ The Java REST client uses the same logging library that the Apache Async Http
 Client uses: https://commons.apache.org/proper/commons-logging/[Apache Commons Logging],
  which comes with support for a number of popular logging implementations. The
 java packages to enable logging for are `org.elasticsearch.client` for the
-client itself and `org.elasticsearch.client.sniffer` for the sniffer.
+client itself and `org.elasticsearch.client.sniff` for the sniffer.
 
 The request tracer logging can also be enabled to log every request and
 corresponding response in curl format. That comes handy when debugging, for
